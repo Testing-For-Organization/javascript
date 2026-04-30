@@ -43,5 +43,14 @@
     "markdownlint": "^0.29.0",
     "markdownlint-cli": "^0.35.0",
     "rimraf": "^6.0.1"
+  },
+  "overrides": {
+    "markdownlint-cli": {
+      "glob": {
+        "foreground-child": {
+          "cross-spawn": "6.0.6"
+        }
+      }
+    }
   }
 }
